@@ -122,7 +122,3 @@ Olá! Meu nome é Paulo, sou Engenheiro de Dados apaixonado por transformar dado
   />
 
 </p>
-
-## 🐍 Snake das Contribuições
-
-![snake gif](https://github.com/Paulodms444/Paulodms444/blob/output/github-contribution-grid-snake.svg)
