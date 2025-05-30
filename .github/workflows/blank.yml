@@ -1,0 +1,29 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Executa todo dia à meia-noite
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v3
+      - name: Gerar animação da cobrinha
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Paulodms444
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Commit arquivos gerados
+        run: |
+          mkdir -p output
+          cp dist/* output/
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add output/
+          git commit -m 'gerando snake svg animation' || echo "Nada para commitar"
+          git push
