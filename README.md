@@ -1,7 +1,7 @@
 <h2 align="center">Hey Everyone</h2>
 
 <p align="center">
-  Desenvolvedor Web Júnior com foco em backend, apaixonado por resolver problemas com <strong>Python</strong>, <strong>Node.js</strong>, <strong>APIs</strong> e <strong>bancos de dados</strong>.<br>
+  Desenvolvedor Web com foco em backend, apaixonado por resolver problemas com <strong>Python</strong>, <strong>Node.js</strong>, <strong>APIs</strong> e <strong>bancos de dados</strong>.<br>
   Em transição da engenharia de dados, tenho experiência com <strong>Docker</strong>, <strong>PostgreSQL</strong> e <strong>AWS</strong>.<br>
   Busco crescer profissionalmente contribuindo com projetos reais e eficientes.
 </p>
